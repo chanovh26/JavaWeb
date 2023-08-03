@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda en línea</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="./script.js">
+</head>
+<body>
+  <header>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Tienda en línea</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+      <header>
+        <h1>Tienda en línea</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Carrito</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <section id="productos">
+        <h2>Productos</h2>
+        <div class="producto">
+          <img src="producto1.jpg" alt="Producto 1">
+          <h3>Nombre del producto</h3>
+          <p>Descripción del producto y detalles</p>
+          <p class="precio">$X.XX</p>
+          <button class="boton-comprar" onclick="agregarAlCarrito()">Comprar</button>
+        </div>
+    
+        <div class="producto">
+          <!-- ... otros productos ... -->
+        </div>
+      </section>
+    
+      <aside id="carrito">
+        <h2>Carrito de compras</h2>
+        <ul id="lista-carrito">
+          <!-- Aquí se mostrarán los productos agregados al carrito -->
+        </ul>
+        <p id="total-carrito">Total: $0.00</p>
+      </aside>
+    
+      <footer>
+        <p>Tienda en línea - Todos los derechos reservados</p>
+      </footer>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
